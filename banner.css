@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-content{
+    background-image: url(./images/Background-img.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header-headline{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.header-title{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.common-button button{
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 13px;
+    border: none;
+}
+main{
+    font-family: sans-serif;
+}
+/* banner-donation section starts */
+
+/* banner-top-area starts */
+.banner-donation{
+    width: 90%;
+    margin: 70px auto;
+}
+.banner-top-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-page-head{
+    font-size: 1.4rem;
+    margin: 10px;
+}
+.banner-page-title{
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* banner-top area ends */
+
+/* pay-button starts */
+.pay-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+.pay-button button{
+    background-color: rgb(252, 217, 153);
+    padding: 25px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.pay-button button:hover{
+    border: 2px solid rgb(238, 128, 128);
+    background-color: rgb(255, 210, 202);
+}
+.for-more-amount{
+    display: flex;
+    justify-content: center;
+}
+#amount{
+    margin-top: 60px;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    text-align: center;
+    width: 35%;
+}
+.common-button{
+    text-align: center;
+}
+.common-button button{
+    margin-top: 30px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 13px;
+    border: none;
+}
+/* pay-button ends */
+/* banner-donation section ends */
+
+/* banner-center-area section starts */
+/* donate-plan-area starts*/
+.banner-center-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.donate-plan-area{
+    text-align: center;
+}
+
+.plan-side-head{
+    font-size: 1.4rem;
+    padding: 15px;
+}
+.types-of-donate{
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+}
+.food-donate-card{
+    background-color: rgba(105, 254, 242, 0.22);
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+.types-icons img{
+    width: 30px;
+}
+.donate-types-head{
+    padding: 20px 0;
+}
+.shelter-donate-card{
+    background-color: rgba(255, 168, 251, 0.364);
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+.education-donate-card{
+    background-color: blanchedalmond;
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+/* donate-plan-area ends*/
+
+/* contribution-area starts */
+.contribution-area{
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.head-of-contribition{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.desc-of-contribution{
+   margin-top: 15px;
+   
+}
+.contribute-button{
+    margin-top: 18px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 13px;
+    border: none;
+}
+.contribution-photos{
+    width: 50%;
+}
+.contribution-photos img{
+    width: 100%;
+}
+/* contribution-area ends */
+/* banner-center-area section ends */
+
+/* my-updates-section starts */
+.updates-highlighting{
+    margin-top: 70px;
+}
+.updates-highlighting h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.updates-highlighting p{
+    text-align: center;
+}
+.form-arrange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.contact-us {
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 10px;
+}
+.assign-email input{
+    border: none;
+    padding: 10px 20px;
+}
+.Subscribe-button button{
+    background-color: rgb(247, 66, 34);
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* my-updates-section ends */
+
+/* footer-part starts */
+.footer-part{
+    height: 140px;
+    margin-top: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-part h2{
+    color: rgb(250, 60, 57);
+    font-family: monospace;
+    font-style: italic;
+}
+.footer-part p{
+    color: white;
+    font-size: 1rem;
+}
+/* footer-part ends */
+
+/* mobile devices responsive */
+
+@media screen and (max-width:576px) {
+
+.header-content{
+    width: auto;
+    padding: 0 20px;
+}
+.banner-donation, .banner-center-area, .footer-part{
+    width: auto;
+    margin-top: 70px;
+ 
+}
+.types-of-donate, .contribution-area{
+    flex-direction: column;
+    margin: 50px 15px;
+}
+.contact-us, .contribution-photos{
+    width: 100%;
+}
+.rotate .contribution-photos{
+    order: 2;
+}
+}
+/* for medium to large devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .types-of-donate{
+        flex-direction: column;
+    }
+   
+    .contribution-photos{
+        width: 100%;
+    }
+    .rotate .contribution-photos{
+        order: 2;
+    }
+
+}
